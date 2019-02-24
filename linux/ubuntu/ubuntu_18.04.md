@@ -1,6 +1,6 @@
 # Xubuntu Setup
 - Install Xubuntu
-  - if installing in virtualbox in a mac, choose keyboard layout `US (MAcintosh)`
+  - if installing in virtualbox in a mac, choose keyboard layout `US (Macintosh)`
 - After installation update the system
 ```bash
 sudo apt update
