@@ -1,0 +1,23 @@
+# This needs the following plugins
+#   vagrant plugin install vagrant-disksize
+#   vagrant plugin install vagrant-vbguest
+Vagrant.configure("2") do |config|
+  
+  config.vm.box = "ubuntu/disco64"
+  config.disksize.size = "40GB"
+  config.ssh.forward_x11 = true
+  
+  for i in 3..9
+    for j in [0, 21, 22, 80, 443]
+      port = i * 1000 + j
+      config.vm.network "forwarded_port", guest: port, host: port
+    end
+  end
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "ubox"
+    vb.memory = "4096"
+    vb.cpus = 2
+  end
+
+end
