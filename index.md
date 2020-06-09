@@ -1,37 +1,37 @@
 # Index
 
+---
 ## Programming
 - Java
-  - [Code Snippets][java-code-snippets]
-  - [Java Testing][java-testing]
   - [Design Patterns][java-design-patterns]
+  - [Multithreading][java-multithreading]
+  - [Testing][java-testing]
+  - [Code Snippets][java-code-snippets]
+  - [jhipster][jhipster]
 - Python
-  - [conda][conda]
-  - [jupyter][jupyter]
+  - [Conda][conda]
+  - [Jupyter][jupyter]
 - Rust
   - [Rustup][rustup]
-- [node][node]
-- [jhipster][jhipster]
-- Multithreading
-  - [Java][java-multithreading]
+- [Node][node]
 
-
-## Database
-- [mongo][mongo]
-
-
-## Cloud
-- [aws][aws]
-- [serverless][serverless]
-
-
+---
 ## DevOps
 - [gradle][gradle]
   - [Gradle Commands][gradle-commands]
 - [docker][docker]
 - [vagrant][vagrant]
 
+---
+## Database
+- [mongo][mongo]
 
+---
+## Cloud
+- [aws][aws]
+- [serverless][serverless]
+
+---
 ## Linux
 - [Linux][linux]
   - [system commands][linux-system-commands]
@@ -41,46 +41,48 @@
 - shell
   - [shell][linux-shell]
 
-
+---
 ## DS & Algo
 - [Graph Theory][graph-theory]
   - [dfs][dfs]
   - [bfs][bfs]
 
 
+
 [home]: /dev-guide
 
+[java-design-patterns]: /dev-guide/guides/programming/java/java-design-patterns
+[java-multithreading]: /dev-guide/guides/wiki/java-multithreading
+[java-testing]: /dev-guide/guides/programming/java/java-testing
 [java-code-snippets]: /dev-guide/guides/programming/java/java-code-snippets
-[java-testing]: https://github.com/lpatra/dev-guide/wiki/java-testing
-[java-design-patterns]: https://github.com/lpatra/dev-guide/wiki/java-design-patterns
+[jhipster]: /dev-guide/guides/programming/java/jhipster
 
 
-[conda]: https://github.com/lpatra/dev-guide/wiki/conda
-[jupyter]: https://github.com/lpatra/dev-guide/wiki/jupyter
+[conda]: /dev-guide/guides/programming/python/conda
+[jupyter]: /dev-guide/guides/programming/python/jupyter
 
-[rustup]: https://github.com/lpatra/dev-guide/wiki/rustup
+[rustup]: /dev-guide/guides/programming/rust/rustup
 
-[node]: https://github.com/lpatra/dev-guide/wiki/node
-[jhipster]: https://github.com/lpatra/dev-guide/wiki/jhipster
-[java-multithreading]: https://github.com/lpatra/dev-guide/wiki/java-multithreading
+[node]: /dev-guide/guides/programming/node/node
 
-[gradle-commands]: https://github.com/lpatra/dev-guide/wiki/gradle-commands
 
-[mongo]: https://github.com/lpatra/dev-guide/wiki/mongo
+[gradle]: /dev-guide/guides/devops/gradle/gradle
+[gradle-commands]: /dev-guide/guides/devops/gradle/gradle-commands
+[docker]: /dev-guide/guides/devops/docker
+[vagrant]: /dev-guide/guides/devops/vagrant
 
-[aws]: https://github.com/lpatra/dev-guide/wiki/aws
-[serverless]: https://github.com/lpatra/dev-guide/wiki/serverless
+[mongo]: /dev-guide/guides/database/mongo/mongo
 
-[gradle]: https://github.com/lpatra/dev-guide/wiki/gradle
-[docker]: https://github.com/lpatra/dev-guide/wiki/docker
-[vagrant]: https://github.com/lpatra/dev-guide/wiki/vagrant
+[aws]: /dev-guide/guides/cloud/aws/aws
+[serverless]: /dev-guide/guides/cloud/serverless
 
-[linux]: https://github.com/lpatra/dev-guide/wiki/linux
-[linux-system-commands]: https://github.com/lpatra/dev-guide/wiki/linux-system-commands
-[arch-linux-installation]: https://github.com/lpatra/dev-guide/wiki/arch-linux-installation
-[pacman]: https://github.com/lpatra/dev-guide/wiki/pacman
-[linux-shell]: https://github.com/lpatra/dev-guide/wiki/linux-shell
 
-[graph-theory]: https://github.com/lpatra/dev-guide/wiki/graph-theory
-[dfs]: https://github.com/lpatra/dev-guide/wiki/dfs
-[bfs]: https://github.com/lpatra/dev-guide/wiki/bfs
+[linux]: /dev-guide/guides/cloud/linux
+[linux-system-commands]: /dev-guide/guides/cloud/linux/linux-system-commands
+[arch-linux-installation]: /dev-guide/guides/cloud/linux/arch-linux-installation
+[pacman]: /dev-guide/guides/cloud/linux/pacman
+[linux-shell]: /dev-guide/guides/cloud/linux/linux-shell
+
+[graph-theory]: /dev-guide/guides/dsalgo/graph-theory
+[dfs]: /dev-guide/guides/dsalgo/dfs
+[bfs]: /dev-guide/guides/dsalgo/bfs
