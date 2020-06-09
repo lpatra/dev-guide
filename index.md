@@ -48,9 +48,9 @@
   - [bfs][bfs]
 
 
-[home]: /
+[home]: /dev-guide
 
-[java-code-snippets]: /guides/programming/java/java-code-snippets.md
+[java-code-snippets]: /dev-guide/guides/programming/java/java-code-snippets.md
 [java-testing]: https://github.com/lpatra/dev-guide/wiki/java-testing
 [java-design-patterns]: https://github.com/lpatra/dev-guide/wiki/java-design-patterns
 

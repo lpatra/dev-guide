@@ -1,4 +1,4 @@
-[Index][home] |> Java |> Code Snippets
+[Index][home] > Java > Code Snippets
 
 # Java Code Snippets
 - current time in ISO format
@@ -8,4 +8,4 @@ String dateString = ZonedDateTime.now(ZoneOffset.UTC)
 ```
 
 
-[home]: /
+[home]: /dev-guide
