@@ -50,7 +50,7 @@
 
 [home]: /
 
-[java-code-snippets]: programming/java/java-code-snippets.md
+[java-code-snippets]: /guides/programming/java/java-code-snippets.md
 [java-testing]: https://github.com/lpatra/dev-guide/wiki/java-testing
 [java-design-patterns]: https://github.com/lpatra/dev-guide/wiki/java-design-patterns
 
