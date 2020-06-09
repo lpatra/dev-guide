@@ -1,4 +1,4 @@
-[Index][home] > Java > Code Snippets
+[Index][home] > Java > Design Patterns
 
 # Java Design Paterns
 
