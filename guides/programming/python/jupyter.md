@@ -1,6 +1,6 @@
-[Index][home] > Python > Jupyer
+[Index][home] > Python > Jupyter
 
-# Jupyer
+# Jupyter
 
 **TODO**
 
