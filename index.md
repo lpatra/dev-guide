@@ -21,6 +21,8 @@
   - [Gradle Commands][gradle-commands]
 - [docker][docker]
 - [vagrant][vagrant]
+- Nginx
+  - [Proxy][nginx-proxy]
 
 ---
 ## Database
@@ -70,6 +72,7 @@
 [gradle-commands]: /dev-guide/guides/devops/gradle/gradle-commands
 [docker]: /dev-guide/guides/devops/docker
 [vagrant]: /dev-guide/guides/devops/vagrant
+[nginx-proxy]: /dev-guide/guides/devops/nginx/nginx-proxy
 
 [mongo]: /dev-guide/guides/database/mongo/mongo
 
