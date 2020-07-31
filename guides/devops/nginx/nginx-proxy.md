@@ -24,12 +24,14 @@ server {
     return 301 https://$host$request_uri;
 }
 
-## Proxy https traffic to http://app
+## Proxy https traffic to http://app:8080
 server {
     listen 443 ssl default_server;
     ssl_certificate /ssl/cert.pem;
     ssl_certificate_key /ssl/cert.key;
-    proxy_pass http://app;
+    location / {
+        proxy_pass http://app:8080;
+    }
 }
 ```
 
@@ -40,12 +42,15 @@ version: "3"
 services:
   app:
     APP_SERVICE_DETAILS
+    expose:
+      - "8080"
   proxy:
     image: nginx:alpine
     ports:
       - "80:80"
       - "443:443"
     volumes:
+      - /path/to/nginx-proxy.conf:/etc/nginx/conf.d/default.conf
       - /path/to/nginx-selfsigned.crt:/ssl/cert.crt
       - /path/to/nginx-selfsigned.key:/ssl/cert.key
     links:
