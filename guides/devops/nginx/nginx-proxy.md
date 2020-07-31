@@ -15,8 +15,8 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout nginx-selfsigned.key
 ## Creating nginx config file
 
 - The following confing will redirect http traffic to https and then proxy requests to http://app 
-```
 
+```json
 ## Redirect all http traffic to https
 server {
     listen 80 default_server;
@@ -29,7 +29,6 @@ server {
     listen 443 ssl default_server;
     proxy_pass http://app;
 }
-
 ```
 
 [home]: /dev-guide
