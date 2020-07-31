@@ -33,4 +33,24 @@ server {
 }
 ```
 
+## Setup proxy service in docker-compose.yml
+
+```yml
+version: "3"
+services:
+  app:
+    APP_SERVICE_DETAILS
+  proxy:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /path/to/nginx-selfsigned.crt:/ssl/cert.crt
+      - /path/to/nginx-selfsigned.key:/ssl/cert.key
+    links:
+      - "app"
+```
+
+
 [home]: /dev-guide
