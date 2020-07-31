@@ -28,7 +28,7 @@ server {
 server {
     listen 443 ssl default_server;
     ssl_certificate /ssl/cert.pem;
-    ssl_certificate_key /ssl/cert.key>;
+    ssl_certificate_key /ssl/cert.key;
     proxy_pass http://app;
 }
 ```
