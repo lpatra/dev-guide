@@ -4,7 +4,7 @@
 
 ## Create Rails app with react and postgres
 ```bash
-rails new APP_NAME --webpack=react --db=postgres
+rails new APP_NAME --webpack=react --database=postgresql
 ```
 
 
