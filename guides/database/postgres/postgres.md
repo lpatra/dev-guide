@@ -7,7 +7,7 @@
 ### Using Docker Compose
 - Check [Docker guide][docker] to get more info about docker compose commands 
 - [Postgres Docker Image](https://hub.docker.com/_/postgres)
-- create the following `docker-compose.yml` file
+- create the following `docker-compose.yml` file and `db-data` directory
 
 ```yml
 version: '3.1'
@@ -17,8 +17,10 @@ services:
   db:
     image: postgres:13-alpine
     restart: always
+    volumes:
+      - "${PWD}/db-data:/var/lib/postgresql/data/" # persist data even if container shuts down
     ports:
-      - "5432:5432"
+      - "5432:5432" # to expose port to host
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin
