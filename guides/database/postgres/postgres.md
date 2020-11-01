@@ -33,7 +33,7 @@ services:
 
 - start the db container
 ```bash
-# the following command with start containers in detached mode. remove -d if you don't want it
+# the -d option in the following command with start containers in detached mode. 
 docker-compose up -d
 ```
 
