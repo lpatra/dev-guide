@@ -2,7 +2,10 @@
 
 # Node JS
 
-**TODO**
+## Update `npm`
+```bash
+npm install -g npm
+```
 
 
 [home]: /dev-guide
