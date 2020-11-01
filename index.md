@@ -1,6 +1,7 @@
 # Index
 
 ---
+
 ## Programming
 - Java
   - [Design Patterns][java-design-patterns]
@@ -16,6 +17,7 @@
 - [Node][node]
 
 ---
+
 ## DevOps
 - [Gradle][gradle]
 - [Docker][docker]
@@ -24,15 +26,18 @@
   - [Proxy][nginx-proxy]
 
 ---
+
 ## Database
 - [mongo][mongo]
 
 ---
+
 ## Cloud
 - [aws][aws]
 - [serverless][serverless]
 
 ---
+
 ## Linux
 - [Linux][linux]
   - [system commands][linux-system-commands]
@@ -43,10 +48,12 @@
   - [shell][linux-shell]
 
 ---
-## DS & Algo
-- [Graph Theory][graph-theory]
-  - [dfs][dfs]
-  - [bfs][bfs]
+
+## Data Structures & Algorithims
+- Graph
+  - [Graph Theory][graph-theory]
+  - [DFS - Depth First Search][dfs]
+  - [BFS - Breadth First Search][bfs]
 
 
 
@@ -87,6 +94,6 @@
 [linux-shell]: /dev-guide/guides/cloud/linux/linux-shell
 
 
-[graph-theory]: /dev-guide/guides/dsalgo/graph-theory
-[dfs]: /dev-guide/guides/dsalgo/dfs
-[bfs]: /dev-guide/guides/dsalgo/bfs
+[graph-theory]: /dev-guide/guides/ds-algo/graph/graph-theory
+[dfs]: /dev-guide/guides/ds-algo/graph/dfs
+[bfs]: /dev-guide/guides/ds-algo/graph/bfs
