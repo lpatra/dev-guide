@@ -17,10 +17,9 @@
 
 ---
 ## DevOps
-- [gradle][gradle]
-  - [Gradle Commands][gradle-commands]
-- [docker][docker]
-- [vagrant][vagrant]
+- [Gradle][gradle]
+- [Docker][docker]
+- [Vagrant][vagrant]
 - Nginx
   - [Proxy][nginx-proxy]
 
@@ -69,12 +68,13 @@
 
 
 [gradle]: /dev-guide/guides/devops/gradle/gradle
-[gradle-commands]: /dev-guide/guides/devops/gradle/gradle-commands
-[docker]: /dev-guide/guides/devops/docker
-[vagrant]: /dev-guide/guides/devops/vagrant
+[docker]: /dev-guide/guides/devops/docker/docker
+[vagrant]: /dev-guide/guides/devops/vagrant/vagrant
 [nginx-proxy]: /dev-guide/guides/devops/nginx/nginx-proxy
 
+
 [mongo]: /dev-guide/guides/database/mongo/mongo
+
 
 [aws]: /dev-guide/guides/cloud/aws/aws
 [serverless]: /dev-guide/guides/cloud/serverless
@@ -85,6 +85,7 @@
 [arch-linux-installation]: /dev-guide/guides/cloud/linux/arch-linux-installation
 [pacman]: /dev-guide/guides/cloud/linux/pacman
 [linux-shell]: /dev-guide/guides/cloud/linux/linux-shell
+
 
 [graph-theory]: /dev-guide/guides/dsalgo/graph-theory
 [dfs]: /dev-guide/guides/dsalgo/dfs
