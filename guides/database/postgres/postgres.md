@@ -31,6 +31,11 @@ services:
       - 8080:8080
 ```
 
+### Connect to a postgres instance
+```
+docker run -it --rm --network some-network postgres psql -h some-postgres -U postgres
+```
+
 
 
 [home]: /dev-guide
