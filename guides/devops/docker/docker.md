@@ -3,7 +3,9 @@
 # Docker
 
 ### Installation
-- For ubuntu follow the [guide](https://docs.docker.com/engine/install/ubuntu/)
+- Refer the following guides to install in ubuntu
+  - [Docker](https://docs.docker.com/engine/install/ubuntu/)
+  - [Docker Compose](https://docs.docker.com/compose/install)
 
 ---
 
@@ -31,9 +33,9 @@ docker-compose logs
 
 ## Connecting to a existing container
 - Connect to a docker compose alpine based container shell
-  - change the `/bin/ash` do `/bin/bash` for ubuntu container
+  - change the `ash` do `bash` for ubuntu container
 ```bash
-docker-compose run -it CONTAINER_NAME /bin/ash
+docker-compose run CONTAINER_NAME ash
 ```
   
 

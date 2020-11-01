@@ -9,31 +9,41 @@
 
 ### docker run
 ```bash
-docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres:13-alpine
 ```
 
 ### docker-compose
+- create the following `docker-compose.yml` file
 ```yml
 version: '3.1'
 
 services:
 
   db:
-    image: postgres
-    restart: always
-    environment:
-      POSTGRES_PASSWORD: example
-
-  adminer:
-    image: adminer
+    image: postgres:13-alpine
     restart: always
     ports:
-      - 8080:8080
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+
 ```
 
-### Connect to a postgres instance
+- start the db container
+```bash
+# the following command with start containers in detached mode. remove -d if you don't want it
+docker-compose up -d
 ```
-docker run -it --rm --network some-network postgres psql -h some-postgres -U postgres
+
+- Connect to a postgres instance
+```bash
+docker-compose run db psql --host=db --username=admin
+```
+
+- destroy all containers when not needed
+```bash
+docker-compose down
 ```
 
 
