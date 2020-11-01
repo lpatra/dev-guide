@@ -3,15 +3,7 @@
 # Docker
 
 ### Installation
-- remove existing version
-```bash
-sudo apt-get purge docker-ce
-sudo rm -rf /var/lib/docker
-```
-- install
-```bash
-sudo apt-get update && sudo apt-get install docker-ce docker-ce-cli containerd.io
-```
+- For ubuntu follow the [guide](https://docs.docker.com/engine/install/ubuntu/)
 
 ---
 
