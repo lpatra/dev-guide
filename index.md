@@ -8,13 +8,15 @@
   - [Multithreading][java-multithreading]
   - [Testing][java-testing]
   - [Code Snippets][java-code-snippets]
-  - [jhipster][jhipster]
+  - [Jhipster][jhipster]
 - Python
   - [Conda][conda]
   - [Jupyter][jupyter]
 - Rust
   - [Rustup][rustup]
 - [Node][node]
+- Ruby
+  - [Ruby on Rails][ruby-on-rails]
 
 ---
 
@@ -29,6 +31,8 @@
 
 ## Database
 - [Mongo DB][mongo]
+- [Postgres][postgres]
+
 
 ---
 
@@ -69,6 +73,7 @@
 [rustup]: /dev-guide/guides/programming/rust/rustup
 
 [node]: /dev-guide/guides/programming/node/node
+[ruby-on-rails]: /dev-guide/guides/programming/ruby/ruby-on-rails
 
 
 [gradle]: /dev-guide/guides/devops/gradle/gradle
@@ -78,6 +83,7 @@
 
 
 [mongo]: /dev-guide/guides/database/mongo/mongo
+[postgres]: /dev-guide/guides/database/postgres/postgres
 
 
 [aws]: /dev-guide/guides/cloud/aws/aws
