@@ -54,7 +54,7 @@
 [home]: /dev-guide
 
 [java-design-patterns]: /dev-guide/guides/programming/java/java-design-patterns
-[java-multithreading]: /dev-guide/guides/wiki/java-multithreading
+[java-multithreading]: /dev-guide/guides/programming/java/java-multithreading
 [java-testing]: /dev-guide/guides/programming/java/java-testing
 [java-code-snippets]: /dev-guide/guides/programming/java/java-code-snippets
 [jhipster]: /dev-guide/guides/programming/java/jhipster
