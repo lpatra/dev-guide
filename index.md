@@ -46,7 +46,7 @@
 - [System Commands][linux-system-commands]
 - Arch Linux
   - [Installation][arch-linux-installation]
-  - [pacman][pacman]
+  - [Pacman][pacman]
 
 ---
 
@@ -87,7 +87,7 @@
 
 
 [aws]: /dev-guide/guides/cloud/aws/aws
-[serverless]: /dev-guide/guides/cloud/serverless
+[serverless]: /dev-guide/guides/cloud/serverless/serverless
 
 
 [linux-system-commands]: /dev-guide/guides/linux/system/system-commands
