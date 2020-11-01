@@ -39,9 +39,9 @@
 ---
 
 ## Linux
-- [System Commands][system-commands]
+- [System Commands][linux-system-commands]
 - Arch Linux
-  - [installation][arch-linux-installation]
+  - [Installation][arch-linux-installation]
   - [pacman][pacman]
 
 ---
@@ -84,10 +84,9 @@
 [serverless]: /dev-guide/guides/cloud/serverless
 
 
-[linux]: /dev-guide/guides/cloud/linux
-[linux-system-commands]: /dev-guide/guides/cloud/linux/system/system-commands
-[arch-linux-installation]: /dev-guide/guides/cloud/linux/arch-linux-installation
-[pacman]: /dev-guide/guides/cloud/linux/pacman
+[linux-system-commands]: /dev-guide/guides/linux/system/system-commands
+[arch-linux-installation]: /dev-guide/guides/linux/arch/arch-linux-installation
+[pacman]: /dev-guide/guides/linux/arch/linux/pacman
 
 
 [graph-theory]: /dev-guide/guides/ds-algo/graph/graph-theory

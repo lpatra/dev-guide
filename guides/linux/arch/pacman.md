@@ -1,6 +1,6 @@
-[Index][home] > Linux > Arch > Pacman
+[Index][home] > Linux > Arch > pacman
 
-# Pacman
+# pacman
 
 ### Refresh package list
 ```bash
