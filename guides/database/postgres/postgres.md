@@ -38,7 +38,7 @@ docker-compose up -d
 
 - Connect to a postgres instance
 ```bash
-docker-compose run db psql --host=db --username=admin
+docker-compose run --rm db psql --host=db --username=admin
 ```
 
 - destroy all containers when not needed
