@@ -28,13 +28,13 @@
 ---
 
 ## Database
-- [mongo][mongo]
+- [Mongo DB][mongo]
 
 ---
 
 ## Cloud
-- [aws][aws]
-- [serverless][serverless]
+- [AWS][aws]
+- [Serverless Framework][serverless]
 
 ---
 
