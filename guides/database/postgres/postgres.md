@@ -14,6 +14,7 @@ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgre
 
 ### docker-compose
 - create the following `docker-compose.yml` file
+
 ```yml
 version: '3.1'
 
