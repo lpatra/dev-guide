@@ -39,13 +39,10 @@
 ---
 
 ## Linux
-- [Linux][linux]
-  - [system commands][linux-system-commands]
+- [System Commands][system-commands]
 - Arch Linux
   - [installation][arch-linux-installation]
   - [pacman][pacman]
-- shell
-  - [shell][linux-shell]
 
 ---
 
@@ -88,10 +85,9 @@
 
 
 [linux]: /dev-guide/guides/cloud/linux
-[linux-system-commands]: /dev-guide/guides/cloud/linux/linux-system-commands
+[linux-system-commands]: /dev-guide/guides/cloud/linux/system/system-commands
 [arch-linux-installation]: /dev-guide/guides/cloud/linux/arch-linux-installation
 [pacman]: /dev-guide/guides/cloud/linux/pacman
-[linux-shell]: /dev-guide/guides/cloud/linux/linux-shell
 
 
 [graph-theory]: /dev-guide/guides/ds-algo/graph/graph-theory
