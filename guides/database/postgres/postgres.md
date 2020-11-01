@@ -4,15 +4,9 @@
 
 ## Installation
 
-### Using Docker
-- [Docker Image](https://hub.docker.com/_/postgres)
-
-### docker run
-```bash
-docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres:13-alpine
-```
-
-### docker-compose
+### Using Docker Compose
+- Check [Docker guide][docker] to get more info about docker compose commands 
+- [Postgres Docker Image](https://hub.docker.com/_/postgres)
 - create the following `docker-compose.yml` file
 
 ```yml
@@ -50,3 +44,5 @@ docker-compose down
 
 
 [home]: /dev-guide
+[docker]: /dev-guide/guides/devops/docker/docker
+
