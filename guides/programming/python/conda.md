@@ -26,13 +26,14 @@
 ### Create virtual env
 - Activate root miniconda env
   - `source $T_WORK/miniconda3/bin/activate`
+  - `conda update conda`
 - Create venv
   - `conda create -n aws python=3 anaconda jupyter`
 - List all venvs from base env
   - `conda env list`
 - Activate venv and install packages
   - `conda activate aws`
-  - `conda update conda`
+  - `conda update --all`
   - `conda install -c conda-forge awscli boto3`
 - To dectivate venv
   - `conda deactivate aws`
