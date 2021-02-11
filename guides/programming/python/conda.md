@@ -12,7 +12,7 @@
   ```
 - Download Miniconda
   - https://conda.io/miniconda.html
-    - Mac OsX
+    - Mac OSX
       - `cd $T_WORK/downloads && curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh`
     - Linux
       - `cd $T_WORK/downloads && curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`
